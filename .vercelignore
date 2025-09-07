@@ -1,0 +1,21 @@
+# Ignore development files
+node_modules/
+.git/
+.vscode/
+*.log
+
+# Ignore large media files that aren't essential
+audio/bgm/*.ogg
+movies/
+*.mp4
+
+# Ignore save files
+save/
+
+# Ignore test files
+test/
+coinflip-test.html
+
+# Ignore documentation files
+*.md
+!README.md

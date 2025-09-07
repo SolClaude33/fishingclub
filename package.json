@@ -8,7 +8,7 @@
     "serve": "python -m http.server 8000",
     "dev": "python -m http.server 8000",
     "test": "echo \"Open coinflip-test.html in your browser to test Web3 functionality\"",
-    "build": "echo \"No build process needed for this static web game\"",
+    "build": "echo \"Static web game - no build needed\"",
     "deploy": "echo \"Deploy to your preferred static hosting service\""
   },
   "keywords": [
