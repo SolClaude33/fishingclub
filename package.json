@@ -1,0 +1,61 @@
+{
+  "name": "penguin-fishing-club",
+  "version": "1.2.0",
+  "description": "A Web3-enabled fishing game built with RPG Maker MZ, featuring blockchain integration, wallet connectivity, and interactive minigames.",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "test": "echo \"Open coinflip-test.html in your browser to test Web3 functionality\"",
+    "build": "echo \"No build process needed for this static web game\"",
+    "deploy": "echo \"Deploy to your preferred static hosting service\""
+  },
+  "keywords": [
+    "web3",
+    "blockchain",
+    "fishing",
+    "game",
+    "rpg-maker",
+    "ethereum",
+    "wallet",
+    "minigame",
+    "abstract-global-wallet",
+    "privy"
+  ],
+  "author": "Penguin Fishing Club Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/penguin-fishing-club.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/penguin-fishing-club/issues"
+  },
+  "homepage": "https://github.com/your-username/penguin-fishing-club#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "files": [
+    "index.html",
+    "game.html",
+    "coinflip-test.html",
+    "js/",
+    "css/",
+    "img/",
+    "audio/",
+    "data/",
+    "fonts/",
+    "README.md",
+    "LICENSE"
+  ]
+}
